@@ -18,40 +18,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOT-Kx-q2c">
-                                <rect key="frame" x="145" y="70" width="131" height="30"/>
-                                <color key="backgroundColor" red="0.41406834125518799" green="0.70778185129165649" blue="0.22999793291091919" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="FECHAS">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p57-xQ-IFO">
-                                <rect key="frame" x="275" y="70" width="139" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="142" placeholderIntrinsicHeight="30" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p57-xQ-IFO">
+                                <rect key="frame" x="267" y="70" width="142" height="30"/>
                                 <color key="backgroundColor" red="0.41406834125518799" green="0.70778185129165649" blue="0.22999793291091919" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="FAVORITOS">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ijO-ZC-jJk">
-                                <rect key="frame" x="0.0" y="70" width="146" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" placeholderIntrinsicWidth="142" placeholderIntrinsicHeight="30" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ijO-ZC-jJk">
+                                <rect key="frame" x="5" y="70" width="142" height="30"/>
                                 <color key="backgroundColor" red="0.41406834125518799" green="0.70778185129165649" blue="0.22999793291091919" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="142" id="8UM-gk-LSG"/>
+                                </constraints>
                                 <state key="normal" title="EVENTOS">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="120" placeholderIntrinsicHeight="30" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOT-Kx-q2c">
+                                <rect key="frame" x="147" y="70" width="120" height="30"/>
+                                <color key="backgroundColor" red="0.41406834125518799" green="0.70778185129165649" blue="0.22999793291091919" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="Ymb-lS-8DD"/>
+                                </constraints>
+                                <state key="normal" title="FECHAS">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="ijO-ZC-jJk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="8JG-rg-gHX"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="p57-xQ-IFO" secondAttribute="trailing" constant="10" id="8hp-U8-WnC"/>
-                            <constraint firstItem="ijO-ZC-jJk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Fe1-vt-FSL"/>
-                            <constraint firstItem="p57-xQ-IFO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="26" id="W1w-4s-J1L"/>
-                            <constraint firstItem="gOT-Kx-q2c" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="26" id="axt-ha-uRb"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="p57-xQ-IFO" secondAttribute="bottom" constant="762" id="jls-iP-GOM"/>
-                            <constraint firstItem="gOT-Kx-q2c" firstAttribute="leading" secondItem="ijO-ZC-jJk" secondAttribute="trailing" id="sSC-bx-2bG"/>
-                            <constraint firstItem="p57-xQ-IFO" firstAttribute="leading" secondItem="gOT-Kx-q2c" secondAttribute="trailing" id="tcg-NO-D5f"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ijO-ZC-jJk" secondAttribute="bottom" constant="762" id="xLt-Y2-y2m"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gOT-Kx-q2c" secondAttribute="bottom" constant="762" id="zgq-jg-m6X"/>
+                            <constraint firstItem="gOT-Kx-q2c" firstAttribute="leading" secondItem="ijO-ZC-jJk" secondAttribute="trailing" id="0j9-P9-0st"/>
+                            <constraint firstItem="ijO-ZC-jJk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="26" id="BCi-54-qjc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="p57-xQ-IFO" secondAttribute="trailing" constant="5" id="Dkt-uq-OOJ"/>
+                            <constraint firstItem="ijO-ZC-jJk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="G2Z-yX-6pF"/>
+                            <constraint firstItem="gOT-Kx-q2c" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="26" id="XaF-Cm-1nv"/>
+                            <constraint firstItem="p57-xQ-IFO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="26" id="jAe-FL-uhH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ijO-ZC-jJk" secondAttribute="bottom" constant="762" id="qhS-uV-Lpf"/>
+                            <constraint firstItem="p57-xQ-IFO" firstAttribute="leading" secondItem="gOT-Kx-q2c" secondAttribute="trailing" id="zlp-qJ-lmX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

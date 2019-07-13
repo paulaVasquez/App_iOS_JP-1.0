@@ -13,6 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        
+        view.setGradientBackground(colorOne: UIColor.yellow, colorTwo: UIColor(red: 0, green: 0.4667, blue: 0.1216, alpha: 1.0))
     }
 
 
